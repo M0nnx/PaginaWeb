@@ -5,6 +5,7 @@ class Producto(models.Model):
     descripcion = models.CharField(max_length=255)
     precio = models.DecimalField(max_digits=20, decimal_places=2)
     stock = models.DecimalField(max_digits=20 ,decimal_places=2)
+    categoria = models.CharField(max_length=255)
 
     class Meta:
         db_table = 'productos'
