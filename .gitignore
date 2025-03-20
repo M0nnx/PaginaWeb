@@ -2,7 +2,7 @@
 venv/
 
 # Ignorar archivos de PyCharm (si usas PyCharm)
-.idea/
+.env
 
 # Ignorar archivos de Visual Studio Code
 .vscode/
